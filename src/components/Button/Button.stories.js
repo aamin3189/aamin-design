@@ -14,7 +14,7 @@ storiesOf('Button', module)
     ),
     {
       'in-dsm': {
-        id: '5ee900e20a72860a8a7b9cf2' 
+        id: '5f0c36249ac2df140c386e17' 
       } 
     }
   )
@@ -27,7 +27,20 @@ storiesOf('Button', module)
     ),
     {
       'in-dsm': {
-        id: '5ee900e20a72860a8a7b9cf2' 
+        id: '5f0c36249ac2df140c386e17' 
+      } 
+    }
+  )
+  .add(
+    'Dark',
+    () => (
+      <div style={style}>
+        <Button type="dark" title="Dark Button"></Button>
+      </div>
+    ),
+    {
+      'in-dsm': {
+        id: '5f0c36249ac2df140c386e17' 
       } 
     }
   )
@@ -41,7 +54,7 @@ storiesOf('Button', module)
     ),
     {
       'in-dsm': {
-        id: '5ee900e20a72860a8a7b9cf2' 
+        id: '5f0c36249ac2df140c386e17' 
       } 
     }
   )
@@ -54,7 +67,7 @@ storiesOf('Button', module)
     ),
     {
       'in-dsm': {
-        id: '5ee900e20a72860a8a7b9cf2' 
+        id: '5f0c36249ac2df140c386e17' 
       } 
     }
   )

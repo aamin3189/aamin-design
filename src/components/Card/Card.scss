@@ -1,0 +1,58 @@
+@import '../../styles/styles.scss';
+
+.comp-card {
+    height: 300px;
+    width: 260px;
+    border: 1px solid rgba(0,0,0,0.11);
+    background-color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    .head{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .headings{
+            color: #000000;
+            font-size: 20px;
+            letter-spacing: 0;
+            line-height: 24px;
+        }
+        .cost{
+            span:nth-child(1){
+                color: #000000;
+                font-family: Helvetica;
+                font-size: 32px;
+                letter-spacing: 0;
+                line-height: 38px;
+            }
+            span:nth-child(2){
+                color: rgba(61,70,83,0.74);
+                font-family: Helvetica;
+                font-size: 32px;
+                letter-spacing: 0;
+            }
+        }
+    }
+    .details{
+        ul{
+            padding-inline-start: 0 !important;
+            ol{
+                padding-inline-start: 0 !important;
+                color: #3D4653;
+                font-family: Helvetica;
+                font-size: 16px;
+                letter-spacing: 0;
+                line-height: 22px;
+                text-align: center;
+            }
+        }
+    }
+    .action{
+        button{
+            min-width: 220px;
+        }
+    }
+  }
