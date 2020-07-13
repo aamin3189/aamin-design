@@ -11,7 +11,7 @@ storiesOf('Button', module).add('Primary', () => /*#__PURE__*/React.createElemen
   title: "Primary Button"
 })), {
   'in-dsm': {
-    id: '5e64674e0e5b371b880341a6'
+    id: '5f0c36249ac2df140c386e17'
   }
 }).add('Secondary', () => /*#__PURE__*/React.createElement("div", {
   style: style
@@ -20,7 +20,16 @@ storiesOf('Button', module).add('Primary', () => /*#__PURE__*/React.createElemen
   title: "Secondary Button"
 })), {
   'in-dsm': {
-    id: '5e64674e0e5b371b880341a6'
+    id: '5f0c36249ac2df140c386e17'
+  }
+}).add('Dark', () => /*#__PURE__*/React.createElement("div", {
+  style: style
+}, /*#__PURE__*/React.createElement(Button, {
+  type: "dark",
+  title: "Dark Button"
+})), {
+  'in-dsm': {
+    id: '5f0c36249ac2df140c386e17'
   }
 }).add('Outline', () => /*#__PURE__*/React.createElement("div", {
   style: style
@@ -29,7 +38,7 @@ storiesOf('Button', module).add('Primary', () => /*#__PURE__*/React.createElemen
   title: "Outline Button"
 })), {
   'in-dsm': {
-    id: '5e64674e0e5b371b880341a6'
+    id: '5f0c36249ac2df140c386e17'
   }
 }).add('Disabled', () => /*#__PURE__*/React.createElement("div", {
   style: style
@@ -38,6 +47,6 @@ storiesOf('Button', module).add('Primary', () => /*#__PURE__*/React.createElemen
   title: "Disabled Button"
 })), {
   'in-dsm': {
-    id: '5e64674e0e5b371b880341a6'
+    id: '5f0c36249ac2df140c386e17'
   }
 });

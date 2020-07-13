@@ -1,0 +1,37 @@
+@import '../../styles/styles.scss';
+
+
+.nav-primary{
+    background: var(--color-primary);
+    .navbar-brand{
+        color: var(--color-white);
+    }
+    .navbar-collapse{
+        justify-content: flex-end;
+        ul{
+            li{
+                a {
+                    color: var(--color-white) !important;
+                }
+            }
+        }
+    }
+}
+
+
+.nav-dark{
+    background: var(--color-dark);
+    .navbar-brand{
+        color: var(--color-white);
+    }
+    .navbar-collapse{
+        justify-content: flex-end;
+        ul{
+            li{
+                a {
+                    color: var(--color-white) !important;
+                }
+            }
+        }
+    }
+}

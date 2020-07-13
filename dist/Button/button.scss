@@ -1,13 +1,13 @@
-// @import '../../styles/styles.scss';
-@import url("https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css");
-@import url("https://brillio.invisionapp.com/dsm-export/brillio/bms/_style-params.css?key=BkwDra1SU");
+@import '../../styles/styles.scss';
+
 
 .primary{
     background-color: var(--color-primary);
     color: var(--color-white);
     padding: 8px;
     border-radius: 5px;
-    border:none
+    border:none;
+    
 }
 
 .secondary{
@@ -15,6 +15,7 @@
     color: var(--color-white);
     padding: 8px;
     border-radius: 5px;
+    border:none
 }
 
 
@@ -28,8 +29,19 @@
 
 
 .disabled{
-    background-color: var(--color-gray);
+    background-color: var(--color-light);
     padding: 8px;
     color: var(--color-white);
     border-radius: 5px;
+    border: none
+}
+
+
+
+.dark{
+    background-color: var(--color-dark);
+    color: var(--color-white);
+    padding: 8px;
+    border-radius: 5px;
+    border:none;
 }
